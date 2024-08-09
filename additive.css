@@ -1,10 +1,8 @@
 /* Font Size */
-/* t stands for text, b stands for border, bx is an abbreviation for box, */
+/* t stands for text, b stands for border, bx is an abbreviation for box, mt is an abbreviation for margin text, */
 
 .tClass{
-    font-size: 20px;
-    }
-.tClass{
+    font-size: 22px;
     font-family: "Karla";
 }
 .bClass{
@@ -16,4 +14,26 @@
 .bxClass{
     border: 4px solid;
     border-color: grey;
+    margin-top: 50px;
+}
+.mtClass{
+    text-align: center;
+    font-family: "Karla";
+    font-size: 18px;
+}
+.h1Class{
+    font-size: 32px;
+    font-family: "Karla";
+}
+.img{
+    margin-top: 50px;
+}
+.button{
+    display: block;
+    margin: auto;
+    font-family: "Karla";
+    font-size: larger;
+}
+.flag{
+    margin-top: 4px;
 }
